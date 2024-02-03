@@ -1,0 +1,11 @@
+[user]
+	name = Kenji Longid
+	email = 58013636+kenmalik@users.noreply.github.com
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
+[pull]
+	rebase = false
+[core]
+	editor = nvim
