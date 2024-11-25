@@ -110,4 +110,6 @@ path+=("/usr/local/bin/apache-maven-3.9.6/bin")
 export PATH
 export PATH="$PATH:/opt/nvim-linux64/bin"
 
+export PATH="$PATH:$HOME/scripts"
+
 # export TERM="screen-256color"
