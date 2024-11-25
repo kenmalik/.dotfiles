@@ -191,7 +191,7 @@ bindsym $mod+r mode "resize"
 # }
 
 # Wallpaper
-exec_always feh --bg-fill ~/Pictures/a_foggy_mountain_with_trees.jpg
+exec_always feh --bg-fill ~/Pictures/pier.jpg
 
 # Theme
 # class                 border  bground text    indicator child_border
@@ -240,3 +240,8 @@ bindsym $mod+d exec "dmenu_run -nf '#BBBBBB' -nb '#222222' -sb '#B66641' -sf '#f
 # Transparency
 exec_always picom
 
+# Monitor management
+bindsym $mod+Shift+m exec xrandr --output HDMI-1-2 --auto --same-as eDP-1
+bindsym $mod+m exec xrandr --output HDMI-1-2 --auto --right-of eDP-1
+bindsym $mod+n exec xrandr --output HDMI-1-2 --off
+bindsym $mod+p move workspace to output right
