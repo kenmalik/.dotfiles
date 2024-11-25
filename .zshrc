@@ -70,7 +70,7 @@ ZSH_THEME="arrow"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git vi-mode)
+plugins=(git vi-mode fzf)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -110,4 +110,4 @@ path+=("/usr/local/bin/apache-maven-3.9.6/bin")
 export PATH
 export PATH="$PATH:/opt/nvim-linux64/bin"
 
-export TERM="screen-256color"
+# export TERM="screen-256color"
